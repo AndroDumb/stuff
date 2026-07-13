@@ -54,9 +54,9 @@ echo "Kernel patched successfully"
 echo "==========================="
 
 # Export build environment variables
-export BUILD_USERNAME=ZetLink
+export BUILD_USERNAME=AndroDumb
 export BUILD_HOSTNAME=crave
-export TZ="America/Argentina/Cordoba"
+export TZ="America/Caracas"
 
 # Set up build environment
 . build/envsetup.sh
