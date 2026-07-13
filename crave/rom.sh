@@ -45,7 +45,7 @@ wget https://raw.githubusercontent.com/ZetLink/utils/refs/heads/main/sm6225-kern
 wget https://raw.githubusercontent.com/ZetLink/utils/refs/heads/main/sm6225-kernel/patches/0001-kernel-Enable-BBR-Vegas-and-Westwood-TCP.patch
 wget https://raw.githubusercontent.com/ZetLink/utils/refs/heads/main/sm6225-kernel/patches/0001-kernel-Add-APatch-support.patch
 patch -p1 < 0001-kernel-Enable-KernelSU.patch
-patch -p1 < 0001-kernel-Enable-BBR-Vegas-and-Westwood-TCP.patch
+patch -p1 < 0001-kernel-Enable-BBR-Vegas-and-West
 patch -p1 < 0001-kernel-Add-APatch-support.patch
 curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
 cd ../../..
